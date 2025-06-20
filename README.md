@@ -1,13 +1,12 @@
 # flutterwave-go
 
-[![Build](https://github.com/NdoleStudio/flutterwave-go/actions/workflows/main.yml/badge.svg)](https://github.com/NdoleStudio/flutterwave-go/actions/workflows/main.yml)
-[![codecov](https://codecov.io/gh/NdoleStudio/flutterwave-go/branch/main/graph/badge.svg)](https://codecov.io/gh/NdoleStudio/flutterwave-go)
-[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/NdoleStudio/flutterwave-go/badges/quality-score.png?b=main)](https://scrutinizer-ci.com/g/NdoleStudio/flutterwave-go/?branch=main)
-[![Go Report Card](https://goreportcard.com/badge/github.com/NdoleStudio/flutterwave-go)](https://goreportcard.com/report/github.com/NdoleStudio/flutterwave-go)
-[![GitHub contributors](https://img.shields.io/github/contributors/NdoleStudio/flutterwave-go)](https://github.com/NdoleStudio/flutterwave-go/graphs/contributors)
-[![GitHub license](https://img.shields.io/github/license/NdoleStudio/flutterwave-go?color=brightgreen)](https://github.com/NdoleStudio/flutterwave-go/blob/master/LICENSE)
-[![PkgGoDev](https://pkg.go.dev/badge/github.com/NdoleStudio/flutterwave-go)](https://pkg.go.dev/github.com/NdoleStudio/flutterwave-go)
-
+[![Build](https://github.com/space-w-alker/flutterwave-go/actions/workflows/main.yml/badge.svg)](https://github.com/space-w-alker/flutterwave-go/actions/workflows/main.yml)
+[![codecov](https://codecov.io/gh/space-w-alker/flutterwave-go/branch/main/graph/badge.svg)](https://codecov.io/gh/space-w-alker/flutterwave-go)
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/space-w-alker/flutterwave-go/badges/quality-score.png?b=main)](https://scrutinizer-ci.com/g/space-w-alker/flutterwave-go/?branch=main)
+[![Go Report Card](https://goreportcard.com/badge/github.com/space-w-alker/flutterwave-go)](https://goreportcard.com/report/github.com/space-w-alker/flutterwave-go)
+[![GitHub contributors](https://img.shields.io/github/contributors/space-w-alker/flutterwave-go)](https://github.com/space-w-alker/flutterwave-go/graphs/contributors)
+[![GitHub license](https://img.shields.io/github/license/space-w-alker/flutterwave-go?color=brightgreen)](https://github.com/space-w-alker/flutterwave-go/blob/master/LICENSE)
+[![PkgGoDev](https://pkg.go.dev/badge/github.com/space-w-alker/flutterwave-go)](https://pkg.go.dev/github.com/space-w-alker/flutterwave-go)
 
 This package provides a `go` client for interacting with the [Flutterwave API](https://developer.flutterwave.com/docs)
 
@@ -16,13 +15,13 @@ This package provides a `go` client for interacting with the [Flutterwave API](h
 `flutterwave-go` is compatible with modern Go releases in module mode, with Go installed:
 
 ```bash
-go get github.com/NdoleStudio/flutterwave-go
+go get github.com/space-w-alker/flutterwave-go
 ```
 
 Alternatively the same can be achieved if you use `import` in a package:
 
 ```go
-import "github.com/NdoleStudio/flutterwave-go"
+import "github.com/space-w-alker/flutterwave-go"
 ```
 
 ## Implemented
@@ -47,7 +46,7 @@ An instance of the `flutterwave` client can be created using `New()`.
 package main
 
 import (
-	"github.com/NdoleStudio/flutterwave-go"
+	"github.com/space-w-alker/flutterwave-go"
 )
 
 func main()  {
@@ -91,7 +90,6 @@ if err != nil {
 
 log.Println(response.Status) // success
 ```
-
 
 #### Create a bill payment
 

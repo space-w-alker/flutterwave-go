@@ -9,8 +9,8 @@ import (
 	"net/http/httptest"
 	"testing"
 
-	"github.com/NdoleStudio/flutterwave-go/internal/helpers"
-	"github.com/NdoleStudio/flutterwave-go/internal/stubs"
+	"github.com/space-w-alker/flutterwave-go/internal/helpers"
+	"github.com/space-w-alker/flutterwave-go/internal/stubs"
 	"github.com/stretchr/testify/assert"
 )
 

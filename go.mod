@@ -1,4 +1,4 @@
-module github.com/NdoleStudio/flutterwave-go
+module github.com/space-w-alker/flutterwave-go
 
 go 1.17
 

@@ -6,8 +6,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/NdoleStudio/flutterwave-go/internal/helpers"
-	"github.com/NdoleStudio/flutterwave-go/internal/stubs"
+	"github.com/space-w-alker/flutterwave-go/internal/helpers"
+	"github.com/space-w-alker/flutterwave-go/internal/stubs"
 	"github.com/araddon/dateparse"
 	"github.com/google/uuid"
 	"github.com/stretchr/testify/assert"
