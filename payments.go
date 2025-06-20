@@ -9,6 +9,7 @@ type GetPaymentLinkRequest struct {
 	RedirectURL          string                       `json:"redirect_url"`
 	Customer             GetPaymentLinkCustomer       `json:"customer"`
 	Customizations       GetPaymentLinkCustomizations `json:"customizations"`
+	PaymentPlan			 string						  `json:"payment_plan"`
 }
 
 // GetPaymentLinkCustomer contains the customer details.
